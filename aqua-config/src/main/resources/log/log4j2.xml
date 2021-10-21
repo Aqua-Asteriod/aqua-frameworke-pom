@@ -17,7 +17,7 @@ monitorInterval log4j能够自动检测修改配置文件和重新配置本身�
     <!-- %logger{36} 表示 Logger 名字最长36个字符 -->
     <property name="LOG_PATTERN" value="%date{yy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" />
     <!-- 定义日志存储的路径，不要配置相对路径 -->
-    <property name="FILE_PATH" value="./logs/${ctx:appPath}" />
+    <property name="FILE_PATH" value="./log/${ctx:appPath}" />
 	<!-- 定义日志文件的名称 -->
     <property name="FILE_NAME" value="${ctx:appName}" />
   </Properties>
@@ -106,6 +106,8 @@ monitorInterval log4j能够自动检测修改配置文件和重新配置本身�
       <appender-ref ref="RollingFileWarn"/>
       <appender-ref ref="RollingFileError"/>
     </root>
+
+
   </loggers>
 
 </configuration>
