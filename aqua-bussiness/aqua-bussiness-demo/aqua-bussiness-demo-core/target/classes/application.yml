@@ -1,8 +1,0 @@
-server:
-  port: 8080
-spring:
-  application:
-    name: aqua-bussniess-demo
-  profiles:
-    active: 'dev'
-  #指定当前服务运行的环境
