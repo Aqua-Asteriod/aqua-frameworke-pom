@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.qf.commons.web.applicaton.WebApplication
+org.springframework.context.ApplicationListener=\
+com.qf.commons.web.event.MyApplicationListener

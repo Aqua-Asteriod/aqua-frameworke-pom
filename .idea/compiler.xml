@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aqua-config" />
+        <module name="aqua-bussiness-demo-core" />
+        <module name="aqua-commons-db" />
+        <module name="aqua-data-basic" />
+        <module name="aqua-data-entity-demo" />
+        <module name="aqua-data-mapper-demo" />
+        <module name="aqua_commons_web" />
+        <module name="aqua-bussiness-demo-protocol" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

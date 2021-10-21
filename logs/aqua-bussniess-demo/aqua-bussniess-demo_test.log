@@ -1,0 +1,21 @@
+21-10-20 20:56:52.337 [main] INFO  com.qf.bussiness.demo.qpplication.DemoAplication - Starting DemoAplication on LAPTOP-J0IAEMGN with PID 24344 (F:\work\codes\JavaWeb\aqua-frameworke-pom\aqua-bussiness\aqua-bussiness-demo\aqua-bussiness-demo-core\target\classes started by 15-cd in F:\work\codes\JavaWeb\aqua-frameworke-pom)
+21-10-20 20:56:52.348 [main] INFO  com.qf.bussiness.demo.qpplication.DemoAplication - The following profiles are active: dev,db,log
+21-10-20 20:56:53.077 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.qf.bussiness.demo.qpplication]' package. Please check your configuration.
+21-10-20 20:56:53.656 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+21-10-20 20:56:53.668 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21-10-20 20:56:53.669 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21-10-20 20:56:53.669 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+21-10-20 20:56:53.765 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21-10-20 20:56:53.766 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1378 ms
+21-10-20 20:56:56.258 [main] WARN  com.baomidou.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.qf.data.demo.entity.CCity".
+21-10-20 20:56:56.540 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21-10-20 20:56:56.722 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21-10-20 20:56:56.746 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+21-10-20 20:56:56.755 [main] INFO  com.qf.bussiness.demo.qpplication.DemoAplication - Started DemoAplication in 5.158 seconds (JVM running for 8.027)
+21-10-20 20:57:36.825 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-10-20 20:57:36.826 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21-10-20 20:57:36.834 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+21-10-20 20:57:36.930 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21-10-20 20:57:38.532 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21-10-21 02:21:12.956 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h24s446ms28µs100ns).
+21-10-21 08:58:30.802 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h37m30s5ms529µs400ns).
